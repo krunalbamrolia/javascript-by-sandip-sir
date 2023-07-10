@@ -1,0 +1,36 @@
+  h1 {
+    color: #333;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  label {
+    display: block;
+    margin-top: 10px;
+    font-family: Arial, sans-serif;
+  }
+  
+  input[type="number"],
+  select {
+    margin-top: 5px;
+    padding: 5px;
+    font-family: Arial, sans-serif;
+  }
+  
+  button {
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #4CAF50;
+    color: #FFF;
+    font-family: Arial, sans-serif;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #slipContainer {
+    margin-top: 20px;
+    border: 1px solid #CCC;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+  }
+  

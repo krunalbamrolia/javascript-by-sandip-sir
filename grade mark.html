@@ -1,0 +1,44 @@
+<html>
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/javascript">
+
+        //get the input value
+        var p_mark = parseFloat(prompt('enter your Physics subject mark  :'));
+        var c_mark = parseFloat(prompt('enter your Chemistry subject mark  :'));
+        var b_mark = parseFloat(prompt('enter your Biology subject mark  :'));
+        var m_mark = parseFloat(prompt('enter your Mathematics subject mark  :'));
+        var com_mark = parseFloat(prompt('enter your Computer subject mark  :'));
+        var total = (p_mark + c_mark + b_mark + m_mark + com_mark);
+        var check=499;
+        var grade = total / 500 * 100;
+        
+        if(total > check){
+            document.write("Your Mark are Invalid plz Enter Range of Mark");
+        }
+        else{    
+        // Perform the operations & Output the result
+        if(grade >= 90){
+            document.write('you got A Grade');
+        }
+        else if(grade >= 80){
+            document.write('you got B Grade');
+        }
+        else if(grade >= 70){
+            document.write('you got C Grade');
+        }
+        else if(grade >= 60){
+            document.write('you got D Grade');
+        }
+        else if(grade >= 50){
+            document.write('you got E Grade');
+        }
+        else{
+            document.write('you got Fail Grade');
+        }
+    }    
+    </script>
+</body>
+</html>    
